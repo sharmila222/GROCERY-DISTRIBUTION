@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="shop_now_fruits.css">
+  <script>
+   
+  </script>
+</head>
+<body>
+<style>
+body{
+    background-image: url("data:image/jpeg;base64,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");
+    background-repeat: repeat;
+    background-size: 500px 500px;
+    background-attachment: fixed;
+    }
+
+.thi_products_heading{
+
+    width: 100%;
+    top: 0%;
+    position: fixed;
+    left: 0%;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(162, 192, 247);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+.thi{
+  justify-content: center;
+  display:flex;
+}
+
+.thi1{
+  justify-content: center;
+  display:flex;
+}
+
+.thi2{
+  justify-content: center;
+  display:flex;
+}
+
+.thi3{
+  justify-content: center;
+  display:flex;
+}
+.thi4{
+  justify-content: center;
+  display:flex;
+}
+.thi5{
+  justify-content: center;
+  display:flex;
+}
+.thi6{
+  justify-content: center;
+  display:flex;
+}
+.thi7{
+  justify-content: center;
+  display:flex;
+}
+
+img.image{
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  height:40%;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 130px;
+  height: 250px;
+  margin: 15px;
+  text-align: center;
+  font-family: arial;
+  padding:10px;
+}
+
+.price {
+  color: grey;
+  font-size: 8px;
+}
+.text{
+  font-size: 10px;
+}
+.card button {
+  width: 100%;
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 10px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+</style>
+  <div class="thi_products_heading" style="font-size: 50px;">
+    <center><b>30$ STORE</b></center>  
+  </div>
+<br><br><br><br>
+
+
+<div class="thi">
+   <div class="card">
+    <img class="image" src="https://umaine.edu/news/wp-content/uploads/sites/3/2019/01/yogurt_news-post-featured-image-1.jpg" alt="Denim Jeans" style="width:100%"> 
+   <h5 style="margin: 15%;" class="text">yogurt</h5>
+   <p class="price">Rs.15.00/pc</p>
+   
+   <select id="litre" style="size: 10px;">
+   <option value="1litre" style="size: 10px;">1litre</option>
+   <option value="2litre" style="size: 10px;">2litre</option>
+   <option value="3litre" style="size: 10px;">3litre</option>
+   <option class="option" value="1litre" selected style="size: 10px;">1litre</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+
+<div class="card">
+    <img class="image" src="https://5.imimg.com/data5/CG/EI/MY-56685002/butter-cream-500x500.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">butter</h5>
+  <p class="price">Rs.45.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+    <img class="image" src="https://katrajdairy.com/wp-content/uploads/2017/08/Pineapple-Lassi-Thumbnail.jpg" alt="Denim Jeans" style="width:100%">
+    <h5 style="margin: 15%;" class="text">pineapple lassi</h5>
+  <p class="price">Rs.45.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+    <img class="image" src="https://5.imimg.com/data5/AV/RR/JM/SELLER-67407649/dairy-milk-products-small1-jpg-500x500.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">buffalo milk </h5>
+  <p class="price">Rs.30.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+</div>
+
+
+
+<div class="thi1">
+   <div class="card">
+      <img class="image" src="https://5.imimg.com/data5/RE/VA/YY/SELLER-80635375/amul-kool-cafe-milk-500x500.jpg" alt="Denim Jeans" style="width:100%" >
+   <h5 style="margin: 15%;" class="text">kool cafe</h5>
+   <p class="price">Rs.30.00/pc</p>
+   
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+
+<div class="card">
+    <img class="image" src="https://www.bigbasket.com/media/uploads/p/xxl/40164807_1-amul-pina-colada.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">pina colada</h5>
+  <p class="price">Rs.30.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="https://media.istockphoto.com/photos/bananas-picture-id98139825?b=1&k=6&m=98139825&s=170667a&w=0&h=vBaLQMUvSVfpd4ejCmCFEb8PZHBkkD0Ap67ke5JDN9Y=" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">Banana-yelakki</h5>
+  <p class="price">Rs.35.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="https://www.thespruce.com/thmb/8TH_yJ_LXs3erJR9QmPQaoHGmF4=/2827x2827/smart/filters:no_upscale()/when-to-harvest-watermelon-2539591-04-f7f99d3a73d846cb9d453f8a6f0cc7ee.jpg" alt="Denim Jeans" style="width:100%" >
+  <h5 style="margin: 15%;" class="text">water melone</h5>
+  <p class="price">Rs.10.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+</div>
+
+
+
+
+<div class="thi2">
+   <div class="card">
+      <img class="image" src="https://res.cloudinary.com/grohealth/image/upload/f_auto,fl_lossy,q_auto/v1581688797/DCUK/Content/Coconut-Cooking-Oil-Food-And-Drink-Coco-Close-up_Medium.jpg" alt="Denim Jeans" style="width:100%" >
+   <h5 style="margin: 15%;" class="text">coconut</h5>
+   <p class="price">Rs.20.00/pc</p>
+   
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+
+<div class="card">
+  <img class="image" src="https://www.healthifyme.com/blog/wp-content/uploads/2020/04/Muskmelon-cover-1.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">musk melon</h5>
+  <p class="price">Rs.40.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="https://www.robersonwine.com/media/ddmbndgk/merlot.jpg?anchor=center&mode=crop&width=600&height=400&rnd=132468039249770000" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">cabernet</h5>
+  <p class="price">Rs.40.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="https://stylesatlife.com/wp-content/uploads/2020/02/jamun-fruit-benefits-1.jpg.webp" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">jamun</h5>
+  <p class="price">Rs.45.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+</div>
+
+
+
+
+<div class="thi3">
+   <div class="card">
+      <img class="image" src="https://www.iamrenew.com/wp-content/uploads/2019/09/Banana.jpg" alt="Denim Jeans" style="width:100%">
+   <h5 style="margin: 15%;" class="text">Robusta</h5>
+   <p class="price">Rs.25.00/pc</p>
+   
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+
+<div class="card">
+  <img class="image" src="https://www.simmerandsauce.com/wp-content/uploads/2018/04/fullsizeoutput_1abe5-1024x731.jpeg.webp" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">fresh fig</h5>
+  <p class="price">Rs.25.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="image" src="https://5.imimg.com/data5/DU/SG/QN/ANDROID-86646068/1558169695054-jpg-500x500.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">poovan</h5>
+  <p class="price">Rs.25.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="https://5.imimg.com/data5/SK/SP/GLADMIN-47658572/karpooravalli-banana-500x500.png" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">Karpooravalli</h5>
+  <p class="price">Rs.45.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+</div>
+
+
+
+
+<div class="thi4">
+   <div class="card">
+      <img class="image" src="http://cdn.shopify.com/s/files/1/0089/6434/1822/files/Sugarcane-1_large.jpg?v=1552720622" alt="Denim Jeans" style="width:100%">
+   <h5 style="margin: 15%;" class="text">sugar cane</h5>
+   <p class="price">Rs.20.00/pc</p>
+   
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+
+<div class="card">
+  <img class="image" src="https://www.moolihai.com/wp-content/uploads/2017/12/dry-corn-1.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">corn</h5>
+  <p class="price">Rs.38.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="https://www.verywellhealth.com/thmb/9hIYJBofWrfW8pc_5es0mToL-Ek=/2560x1920/smart/filters:no_upscale()/the-wheat-allergy-diet-guide-1324279-primary-recirc-70ef0114e17e4f7b9a1faeab8b516e1e.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">wheat</h5>
+  <p class="price">Rs.45.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="https://www.nationalhogfarmer.com/sites/nationalhogfarmer.com/files/nhf-kws-cereals-usa-llc-hybrid-rye.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">Rye</h5>
+  <p class="price">Rs.35.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+</div>
+
+
+<div class="thi5">
+   <div class="card">
+    <img class="image" src="https://www.futuroorganic.com/wp-content/uploads/2020/03/Kuthiravalli-Barnyard-Millet-1new.jpg" alt="Denim Jeans" style="width:100%">
+   <h5 style="margin: 15%;" class="text">millets</h5>
+   <p class="price">Rs.35.00/pc</p>
+   
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+
+<div class="card">
+  <img class="image" src="https://img1.exportersindia.com/product_images/bc-full/2020/10/7352822/spelt-seeds-top-view--1604058309.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">triticate</h5>
+  <p class="price">Rs.15.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="https://www.verywellhealth.com/thmb/vSZVXnkM_w-VW-ezZHcwa8100as=/2122x1412/filters:fill(87E3EF,1)/GettyImages-1095153338-abcd50bfde8340689af5936745a572e9.jpg" alt="Denim Jeans" style="width:100%" >
+  <h5 style="margin: 15%;" class="text">flaxseed oil</h5>
+  <p class="price">Rs.40.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/320644_2200-732x549.jpg" alt="Denim Jeans" style="width:100%" >
+  <h5 style="margin: 15%;" class="text">coconut oil</h5>
+  <p class="price">Rs.20.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+</div>
+
+
+
+
+<div class="thi6">
+   <div class="card">
+      <img class="image" src="https://www.littleindia.pl/media/products/5874d7bec634ecc19ff40cdbb0c93a22/images/thumbnail/big_Sesame-oil.jpg?lm=1621450635" alt="Denim Jeans" style="width:100%" >
+   <h5 style="margin: 15%;" class="text">sesame oil</h5>
+   <p class="price">Rs.35.00/pc</p>
+   
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+
+<div class="card">
+  <img class="image" src="https://5.imimg.com/data5/ZY/BU/ZW/SELLER-53902921/black-sesame-seeds-oil-500x500.jpg"alt="Denim Jeans"  style="width:100%">
+  <h5 style="margin: 15%;" class="text">Black sesame oil</h5>
+  <p class="price">Rs.45.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+  <img class="image" src="https://5.imimg.com/data5/UK/RO/MY-2241791/castor-oil-500x500.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">castor oil</h5>
+  <p class="price">Rs.45.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+    <img class="image" src="https://marketresearch.biz/wp-content/uploads/2018/08/corn-oil-market.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">corn oil</h5>
+  <p class="price">Rs.22.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+</div>
+
+
+
+
+<div class="thi7">
+   <div class="card">
+    <img class="image" src="https://www.homestratosphere.com/wp-content/uploads/2019/07/pear-tree-11032021-870x580.jpg" alt="Denim Jeans" style="width:100%">
+   <h5 style="margin: 15%;" class="text">Pear</h5>
+   <p class="price">Rs.7.00/pc</p>
+   
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+
+<div class="card">
+    <img class="image" src="https://www.homestratosphere.com/wp-content/uploads/2019/07/apple-tree-11032021-870x580.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">apple tree</h5>
+  <p class="price">Rs.10.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+    <img class="image" src="https://www.homestratosphere.com/wp-content/uploads/2019/07/common-fig-tree-10032021-870x578.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">common fig </h5>
+  <p class="price">Rs.10.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+
+<div class="card">
+    <img class="image" src="https://www.homestratosphere.com/wp-content/uploads/2019/07/White-ash-tree.jpg" alt="Denim Jeans" style="width:100%">
+  <h5 style="margin: 15%;" class="text">white ash</h5>
+  <p class="price">Rs.35.00</p>
+   <select id="kg" style="size: 10px;">
+   <option value="500g" style="size: 10px;">1pc</option>
+   <option value="1/2kg" style="size: 10px;">2pc</option>
+   <option value="1/4kg" style="size: 10px;">3pc</option>
+   <option class="option" value="1kg" selected style="size: 10px;">1pc</option>
+   </select>
+  <p><button>Add to Cart</button></p>
+  </div>
+</div>
+
+
+</body>
+</html>
